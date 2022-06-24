@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-24T00:34:43.306Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="e9RovQR-j-pJ_bo3gVqH" version="20.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-24T00:37:07.314Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="8iG9rnTg6F4YuC45bjQH" version="20.0.3" type="github">
   <diagram name="Page-1" id="10a91c8b-09ff-31b1-d368-03940ed4cc9e">
     <mxGraphModel dx="1117" dy="669" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -80,8 +80,8 @@
         <mxCell id="2V7P5vzGsLHppM1MVe53-2" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;The rule is that the player is allowed to take 1/3/7/8 points away from the total points on each turn. Whoever takes the last point loses&lt;br&gt;&lt;br&gt;When it comes to AI&#39;s turn, it would try all possible ways of taking points. If there is one way for it to win( after its turn, there is only one point left ). It would take that path.&lt;br&gt;&lt;br&gt;There are situations which AI cannot win anyhow( say: there is 3 points left when it comes to AI&#39;s turn. ) In these cases, it would randomly take away an eligible point number.&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
           <mxGeometry x="10" y="550" width="220" height="270" as="geometry" />
         </mxCell>
-        <mxCell id="2V7P5vzGsLHppM1MVe53-3" value="Here we take an example to explain how it works. Assum there is 17 points left when it is AI&#39;s turn.&lt;br&gt;&lt;br&gt;For simplicity, we use &quot;-1&quot; &quot;-3&quot; &quot;-7&quot; &quot;-8&quot; to indicate &quot;taking 1 point&quot;, &quot;taking 3 poionts&quot; etc,." style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
-          <mxGeometry x="240" y="650" width="170" height="170" as="geometry" />
+        <mxCell id="2V7P5vzGsLHppM1MVe53-3" value="Here we take an example to explain how it works. Assume there is 17 points left when it is AI&#39;s turn.&lt;br&gt;&lt;br&gt;For simplicity, we use &quot;-1&quot; &quot;-3&quot; &quot;-7&quot; &quot;-8&quot; to indicate &quot;taking 1 point&quot;, &quot;taking 3 poionts&quot; etc,.&lt;br&gt;&lt;br&gt;AI would go through all path( not fully shown on the diagram ) and collect the path that allows it to win, when traverse finishes, it pick one wining path as its action choice." style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
+          <mxGeometry x="240" y="550" width="350" height="270" as="geometry" />
         </mxCell>
         <mxCell id="2V7P5vzGsLHppM1MVe53-53" value="-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="2V7P5vzGsLHppM1MVe53-4" target="2V7P5vzGsLHppM1MVe53-48">
           <mxGeometry relative="1" as="geometry" />
