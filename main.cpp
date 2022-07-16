@@ -6,6 +6,8 @@
 #define AI 1
 #define RANDOM 0
 
+// add a comment to see how to use github in VS
+
 // the point player is allowed to remove from the total points
 const int options[] = {8,7,3,1};
 
