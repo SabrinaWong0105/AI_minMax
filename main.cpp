@@ -8,6 +8,8 @@
 
 // add a comment to see how to use github in VS
 
+// add another comment to see how to use github in VS
+
 // the point player is allowed to remove from the total points
 const int options[] = {8,7,3,1};
 
